@@ -56,10 +56,10 @@ while True:
                 print(f"{frutanueva} ha sido añadida correctamente con el precio de ${preciofruta}.")
          
          #Modificar un producto 
-            modificarfruta = input("\n¿Desea quitar un produco o remplazarlo? (s/n): ").lower()
+            modificarfruta = input("\n¿Desea quitar un producto o remplazarlo? (s/n): ").lower()
 
             if modificarfruta == "s" or modificarfruta == "si":
-                frutarara = input("¿Deseas modificar o eliminar una fruta? \n(Eliminar(presione 'e')/Modificar (presione 'm')): ").lower()
+                frutarara = input("¿Deseas modificar o eliminar una fruta? \nPreciona 'e' para Eliminar y 'm' para Modificar): ").lower()
                 
                 #Eliminar un producto del diccionario
                 if frutarara == "e":
@@ -102,10 +102,10 @@ while True:
                 limpieza[limpieza_nueva] = precio_limpieza
                 print(f"{limpieza_nueva} ha sido añadida correctamente.")
             
-            modificarlimpieza = input("\n¿Desea quitar un produco o remplazarlo? (s/n): ").lower()
+            modificarlimpieza = input("\n¿Desea quitar un producto o remplazarlo? (s/n): ").lower()
 
             if modificarlimpieza == "s" or modificarlimpieza == "si":
-                limpiezarara = input("¿Deseas modificar o eliminar un elemento? \n(Eliminar/Modificar): ").lower()
+                limpiezarara = input("¿Deseas modificar o eliminar un elemento? \nPreciona 'e' para Eliminar y 'm' para Modificar: ").lower()
                 
                 if limpiezarara == "e":
                     for limpio, precio in limpieza.items():
@@ -145,10 +145,10 @@ while True:
                 golosinas[dulcenuevo] = preciodulce
                 print(f"{dulcenuevo} ha sido añadido correctamente.")
 
-            modificardulce = input("\n¿Desea quitar un produco o remplazarlo? (s/n): ").lower()
+            modificardulce = input("\n¿Desea quitar un producto o remplazarlo? (s/n): ").lower()
 
             if modificardulce == "s" or modificardulce == "si":
-                dulcerara = input("\n¿Deseas modificar o eliminar un elemento? \n(Eliminar/Modificar): ").lower()
+                dulcerara = input("\n¿Deseas modificar o eliminar un elemento? \nPreciona 'e' para Eliminar y 'm' para Modificar: ").lower()
                 
                 if dulcerara == "e":
                     for golosina, precio in golosinas.items():
@@ -188,7 +188,7 @@ while True:
                 otros[otronuevo] = preciotro
                 print(f"{otronuevo} ha sido añadido correctamente.")
 
-            modificarotro = input("\n¿Desea quitar un produco o remplazarlo? (s/n): ").lower()
+            modificarotro = input("\n¿Desea quitar un producto o remplazarlo? (s/n): ").lower()
 
             if modificarotro == "s" or modificarotro == "si":
                 otrorara = input("\n¿Deseas modificar o eliminar un elemento? \n(Eliminar/Modificar): ").lower()
